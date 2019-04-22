@@ -1,3 +1,3 @@
 # compsci345
 
-profile pic ref: https://depositphotos.com/119670422/stock-illustration-user-icon-man-profile-businessman.html
+profile pic ref:https://www.kisspng.com/png-computer-icons-user-profile-icon-design-1516982/
