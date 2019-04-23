@@ -1,0 +1,28 @@
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2;
+}
+
+.header-text {
+  width: 500px;
+  text-align: center;
+  border: 15px solid green;
+  margin-top: 1%;
+  padding: 0.6em 0 0.2em;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  -ms-transform: skew(-50deg, 0deg);
+  -webkit-transform: skew(-50deg, 0deg);
+  transform: skew(-40deg, 0deg);
+}
+
+.image-container {
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
