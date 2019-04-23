@@ -1,4 +1,5 @@
 # compsci345
 
-profile pic ref:https://www.kisspng.com/png-computer-icons-user-profile-icon-design-1516982/
-home button ref: http://free-icon-rainbow.com/home-button-in-a-circle-free-icon-2/
+run this command in cmd once you have navigated to selected file: 
+git clone https://github.com/suessflorian/bbq_sauce && cd bbq_sauce && yarn install && yarn run start
+
