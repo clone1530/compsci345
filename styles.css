@@ -9,23 +9,34 @@
   padding: 2;
 }
 
-.header-design {
-  width: 500px;
-  border: 10px solid green;
-  margin-top: 1%;
-  padding: 0.1em 0 0em 2em;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  transform: skew(-40deg, 0deg);
-}
-
 .image-container {
   padding-left: 0.6em;
   padding-right: 0.6em;
 }
 
+.image-container2 {
+  padding-left: 1.2em;
+  padding-top: 1em;
+}
 .header-text {
   text-align: center;
-  transform: skew(40deg, 0deg);
 }
+
+.image-circle {
+  height: 120px;
+  width: 120px;
+  background-color: #D1F2EB;
+  border-radius: 50%;
+}
+
+.header-design {
+  width: 60%;
+  height: 100px;
+  border-top-width: 200px;
+  background: #1ABC9C;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+    
+}
+
 
