@@ -20,6 +20,7 @@
 }
 .header-text {
   text-align: center;
+  width: 100%;
 }
 
 .image-circle {
@@ -37,6 +38,15 @@
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
     
+}
+
+.new-border {
+  border-width: 0px 12px 12px 12px;
+  border-style: solid;
+  border-color: #1ABC9C;
+  border-radius:40px 40px 60px 60px;
+  -moz-border-radius:40px 40px 60px 60px;
+  -webkit-border-radius:50px 50px 60px 60px;
 }
 
 
