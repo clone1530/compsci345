@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+<header class="container">
+  <img class="image-container" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZGF0YS1uYW1lPSJMYXllciAxIiBpZD0iTGF5ZXJf%0D%0AMSIgdmlld0JveD0iMCAwIDY0IDY0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmci%0D%0APjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDpub25lO3N0cm9rZTojMDAwO3N0cm9rZS1taXRlcmxp%0D%0AbWl0OjEwO3N0cm9rZS13aWR0aDoycHg7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZS8+PHBhdGggZD0i%0D%0ATTMyLjUsMkMzNywyLDQwLjU4LDcsNDAuNTgsMTMuMTlTMzcsMjQuMzcsMzIuNSwyNC4zN3MtOC4w%0D%0AOC01LTguMDgtMTEuMThTMjgsMiwzMi41LDJtMC0yQzI2LjkzLDAsMjIuNDIsNS45LDIyLjQyLDEz%0D%0ALjE5UzI2LjkzLDI2LjM3LDMyLjUsMjYuMzdzMTAuMDgtNS45LDEwLjA4LTEzLjE4UzM4LjA3LDAs%0D%0AMzIuNSwwWiIvPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTI2Ljc2LDI2LjM3YTI4LjQ5LDI4LjQ5%0D%0ALDAsMCwxLTExLjQ3LDYuMjZDOS4xOCwzNC4zOCw2LjcyLDUzLDYuMDksNTguOTRhMS45NCwxLjk0%0D%0ALDAsMCwwLDEuNjQsMi4xM2gwYTE2MC4xMiwxNjAuMTIsMCwwLDAsNDkuNTQsMGgwYTEuOTQsMS45%0D%0ANCwwLDAsMCwxLjY0LTIuMTNjLS42My02LTMuMDktMjQuNTYtOS4yLTI2LjMxYTI4LjQ5LDI4LjQ5%0D%0ALDAsMCwxLTExLjQ3LTYuMjYiLz48L3N2Zz4=" alt="This is a cool picture" width="80px" /> 
+    <h1 class="header-text">Task Management</h1>
+    <img class="image-container" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgdmlld0JveD0iMCAwIDY0IDY0IiB4bWxucz0iaHR0%0D%0AcDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDpub25lO3N0%0D%0Acm9rZTojMDAwO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJv%0D%0Aa2Utd2lkdGg6MnB4O308L3N0eWxlPjwvZGVmcz48dGl0bGUvPjxnIGRhdGEtbmFtZT0iTGF5ZXIg%0D%0ANSIgaWQ9IkxheWVyXzUiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTcuODcsNTcuMzhWMjcuMjRI%0D%0AMS42MkwzMiw3LDYyLjQ0LDI3LjI0SDU2VjU3LjM4bC0xMy45Mi0uMjJWNDUuNzJBMTAuMTcsMTAu%0D%0AMTcsMCwwLDAsMzEuOTQsMzUuNTRoMEExMC4xOCwxMC4xOCwwLDAsMCwyMS43Niw0NS43MlY1Ny4x%0D%0ANloiLz48L2c+PC9zdmc+" alt="This is a cool picture" width="100px" /> 
+  </header>
+</head>
+<style>
+  html{
+    background-color: blue;
+  }
+</style>
+<body>
+Content of the document......
+</body>
+
+</html>
