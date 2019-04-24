@@ -83,17 +83,43 @@ h2 {
     z-index: 1;
 }
 
-.test {
+.list-container {
+    display: flex;
+    flex-direction: row;
     margin-top: 25px;
-    background: blue;
     height: 100%
 }
 
 .list-items {
     display: flex;
     flex-direction: column;
+    border: 22px #4bbfb9
 }
 
 .list-info {
-    background: blue;
+    display: flex;
+    flex-direction: row;
+    background: red;
+}
+
+.button {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #4bbfbf), color-stop(1, #4bbfb9));
+	background:-moz-linear-gradient(top, #4bbfbf 5%, #4bbfb9 100%);
+	background:-webkit-linear-gradient(top, #4bbfbf 5%, #4bbfb9 100%);
+	background:-o-linear-gradient(top, #4bbfbf 5%, #4bbfb9 100%);
+	background:-ms-linear-gradient(top, #4bbfbf 5%, #4bbfb9 100%);
+	background:linear-gradient(to bottom, #4bbfbf 5%, #4bbfb9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4bbfbf', endColorstr='#4bbfb9',GradientType=0);
+	background-color:#4bbfb9;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #4babbf;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:32px;
+	padding:12px 76px;
+	text-decoration:none;
 }
