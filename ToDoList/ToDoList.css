@@ -98,7 +98,7 @@ h2 {
 
 .list-info {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background: #4bbfb9;
     width: 70%;
     height: 100%;
@@ -129,4 +129,23 @@ h2 {
 	text-decoration:none;
   margin: 10px;
   letter-spacing: 3px;
+  
+}
+
+.info-buttons {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+
+  }
+.info-action-buttons {
+  background-color:#4bbfb9;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #4babbf;
+  padding:5% 15%;
+  margin: 4px;
+}
 }
