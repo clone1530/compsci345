@@ -82,3 +82,228 @@ h2 {
     top: .1%;
     z-index: 1;
 }
+
+.body-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    height: 100%;
+}
+
+.profiles-section {
+    position: absolute;
+    left: 150px;
+    margin: 2em;
+    padding: 2em;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-profile-1 {
+    width: 75px;
+    height: 65px;
+    position: absolute;
+    top: 50px;
+    left: 175px;
+	background-color:#9feed4;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5x;
+	border-radius:10px;
+	border:1px solid #4babbf;
+	display:inline-block;
+	color:#000000;
+	font-family:"Montserrat", sans-serif;
+	font-size:40px;
+	padding:12px 76px;
+	text-decoration:none;
+    margin: 10px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.background-profile-2 {
+    width: 75px;
+    height: 65px;
+    position: absolute;
+    top: 350px;
+    left: 180px;
+	background-color:#9feed4;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:10px;
+	border:1px solid #4babbf;
+	display:inline-block;
+	color:#000000;
+	font-family:"Montserrat", sans-serif;
+	font-size:40px;
+	padding:12px 76px;
+	text-decoration:none;
+    margin: 10px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.current-profile {
+    height: 80px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+	background-color:#9feed4;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:10px;
+	border:1px solid #4babbf;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:"Montserrat", sans-serif;
+	font-size:40px;
+	padding:12px 76px;
+	text-decoration:none;
+    margin: 10px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.current-profile:hover {
+    background-color: #4bbfb9; 
+}
+
+.top-triangle {
+    position: absolute;
+    bottom: 20px;
+    left: 275px;
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 18px solid #666666;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.bottom-triangle {
+    position: absolute;
+    top:470px;
+    left: 275px;
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 18px solid #666666;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#bp1 {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    display: inline;
+    border: 1px, solid, black;
+}
+
+#bgname-1 {
+    display: inline-flex;
+    padding-left: 20px;
+    margin: inherit;
+}
+
+#bp2 {
+    position: absolute;
+    left: 50px;
+    top: 18px;
+    display: inline;
+}
+
+#bgname-2 {
+    display: flex;
+    right: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 80px;
+    padding-top: 12px;
+}
+
+#bp3 {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    display: inline;
+    border: 1px, solid, black;
+}
+
+#bgname-3 {
+    display: inline-flex;
+    padding-left: 20px;
+    margin: inherit;
+}
+
+.todo-frame {
+    position: absolute;
+    right: 250px;
+    top: 220px
+}
+
+#task1 {
+    position: absolute;
+    right: 350px;
+    top: 320px;
+    cursor: pointer;
+}
+
+#task1:hover {
+    filter: invert(75%) sepia(100%) saturate(460%) hue-rotate(138deg) brightness(145%) contrast(75%);
+}
+
+#task2 {
+    position: absolute;
+    right: 350px;
+    top: 415px;
+    cursor: pointer;
+}
+
+#task2:hover {
+    filter: invert(75%) sepia(100%) saturate(460%) hue-rotate(138deg) brightness(145%) contrast(75%);
+}
+
+#task3 {
+    position: absolute;
+    right: 350px;
+    top: 515px;
+    cursor: pointer;
+}
+
+#task3:hover {
+    filter: invert(75%) sepia(100%) saturate(460%) hue-rotate(138deg) brightness(145%) contrast(75%);
+}
+
+#task4 {
+    position: absolute;
+    right: 350px;
+    top: 615px;
+    cursor: pointer;
+}
+
+#task4:hover {
+    filter: invert(75%) sepia(100%) saturate(460%) hue-rotate(138deg) brightness(145%) contrast(75%);
+}
+
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    border-top-left-radius: 92px;
+    border-top-right-radius: 92px;
+    background-color: #4bbfb9;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
