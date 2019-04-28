@@ -94,8 +94,6 @@ h2 {
 .list-items {
     display: flex;
     flex-direction: column;
-    border: 22px #4bbfb9;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -181,10 +179,8 @@ h2 {
 .info-buttons {
   display: flex;
   flex-direction: row;
-  align-items: center;
     justify-content: center;
-  overflow: hidden;
-  align-items: space-between;
+    overflow: hidden;
   border-radius: 5px;
 
   }
