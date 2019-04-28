@@ -40,6 +40,24 @@
         <div class="todo-section">
             <div class="todo-frame">
                 <img src="../svg-items/To-Do.drawV2.io.svg" alt="todo-frame">
+                <div class="priority-checks">
+                <div class="priority-tooltip">
+                    <img src="../svg-items/High_priority.io.svg" alt="High_priority" id="HP">
+                    <span class="priority-tooltiptext">High Priority</span>
+                </div>
+                <div class="priority-tooltip">
+                    <img src="../svg-items/Medium_priority.io.svg" alt="Medium_priority" id="MP">
+                    <span class="priority-tooltiptext">Medium Priority</span>
+                </div>
+                <div class="priority-tooltip">
+                    <img src="../svg-items/Low_priority.io.svg" alt="Low_priority" id="LP">
+                    <span class="priority-tooltiptext">Low Priority</span>
+                </div>
+                <div class="priority-tooltip">
+                    <img src="../svg-items/VLow_priority.io.svg" alt="VLow_priority" id="VLP">
+                    <span class="priority-tooltiptext">Very Low Priority</span>
+                </div>
+            </div> 
             </div>
             <div class="todo-list">
                 <img src="../svg-items/ToDo_Task1_btn.svg" alt="Task 1" id="task1">
@@ -51,7 +69,28 @@
     </div>
 
     <div class="progress-bar">
-        <h3>PROGRESS BAR COMING SOON!</h3>
+        <div class="progress-button">Progress</div>
+        
+        <div class="progress-bar-container">
+            <div class="division completed">
+                <div class="tooltip">
+                    60%
+                    <span class="tooltiptext"> 60% of the overall tasks completed</span>
+                </div>
+            </div>
+            <div class="division assigned">
+                <div class="tooltip">
+                    20%
+                    <span class="tooltiptext"> 20% of the remaining tasks assigned and in progress</span>
+                </div>
+            </div> 
+            <div class="division not-assigned">
+                    <div class="tooltip">
+                        20%
+                        <span class="tooltiptext"> 20% of the remaining tasks not assigned</span>
+                    </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

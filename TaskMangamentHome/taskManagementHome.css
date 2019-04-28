@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: #f5ebeb;
 }
 
 h2 {
@@ -38,7 +39,7 @@ h2 {
     content: "";
     width: 10%;
     height: 10%;
-    background-color: white;
+    background-color: #f5ebeb;
     border-top-right-radius: 40px;
     position: absolute;
     left: 0px;
@@ -61,7 +62,7 @@ h2 {
     content: "";
     width: 10%;
     height: 10%;
-    background-color: white;
+    background-color: #f5ebeb;
     border-top-left-radius: 40px;
     position: absolute;
     right: 0;
@@ -180,7 +181,7 @@ h2 {
     height: 0;
     border-left: 18px solid transparent;
     border-right: 18px solid transparent;
-    border-bottom: 18px solid #666666;
+    border-bottom: 18px solid #4babbf;
     margin: 10px;
     cursor: pointer;
 }
@@ -193,7 +194,7 @@ h2 {
     height: 0;
     border-left: 18px solid transparent;
     border-right: 18px solid transparent;
-    border-top: 18px solid #666666;
+    border-top: 18px solid #4babbf;
     margin: 10px;
     cursor: pointer;
 }
@@ -242,10 +243,82 @@ h2 {
     margin: inherit;
 }
 
+
+
 .todo-frame {
     position: absolute;
     right: 250px;
     top: 220px
+}
+
+.priority-checks {
+    width: 75px;
+    height: 360px;
+    position: absolute;
+    bottom: 68px;
+    right: 20px;
+    background-color:white;
+}
+
+#HP {
+    position: relative;
+    cursor: pointer;
+}
+
+#MP {
+    position: relative;
+    padding-top: 35px;
+    cursor: pointer;
+}
+
+#LP {
+    position: relative;
+    padding-top: 45px;
+    cursor: pointer;
+}
+
+#VLP {
+    position: relative;
+    padding-top: 45px;
+    cursor: pointer;
+}
+
+.priority-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.priority-tooltip .priority-tooltiptext {
+    visibility: hidden;
+    top: -5px;
+    left: 105%; 
+    width: 150px;
+    background-color: #4bbfb9;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.priority-tooltip .priority-tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #4bbfb9 transparent transparent;
+}
+  
+.priority-tooltip:hover .priority-tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
 
 #task1 {
@@ -292,6 +365,8 @@ h2 {
     filter: invert(75%) sepia(100%) saturate(460%) hue-rotate(138deg) brightness(145%) contrast(75%);
 }
 
+
+
 .progress-bar {
     position: absolute;
     bottom: 0;
@@ -302,8 +377,121 @@ h2 {
     background-color: #4bbfb9;
 }
 
-h3 {
+.progress-button {
+    position: absolute;
+    left: 6em;
+    top: 1em;
+    width: 6em;
+    height: 1.3em;
+    background-color:#9feed4;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:10px;
+	border:1.5px solid #0f859c;
+	display:inline-block;
+	color:#000000;
+	font-family:"Montserrat", sans-serif;
+    font-size:26px;
     text-align: center;
-    color: white;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    cursor: pointer;
 }
 
+.progress-bar-container {
+    box-sizing:border-box;
+    position: absolute;
+    left: 25em;
+    top: 1.8em;
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.division {
+    text-align: right; 
+    font-family:"Montserrat", sans-serif;
+    font-size: 14px;
+    padding: 10px; 
+    color: black; 
+}
+
+.completed {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60%; 
+    background-color: #77e7c2;
+    border: 1.5px solid #0f859c;
+    border-radius: 8px;
+    height: 11px;
+    z-index: -1;
+}
+
+.assigned {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%; 
+    background-color: #a7e7d3;
+    border: 1.5px solid #0f859c;
+    border-radius: 8px;
+    height: 11px;
+    margin: 0;
+    z-index: -2;
+}
+
+.not-assigned {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:98.35%; 
+    background-color: #c6eee1;
+    border-radius: 8px;
+    border: 1.5px solid #0f859c;
+    height: 11px;
+    margin: 0;
+    z-index: -3;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer; 
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #4babbf;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0px 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 130%;
+    left: 50%;
+    margin-left: -125px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 0.5s
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4babbf transparent transparent transparent;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
