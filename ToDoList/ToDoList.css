@@ -88,7 +88,7 @@ h2 {
     flex-direction: row;
     margin-top: 25px;
     height: 100%;
-	align-items: center;
+    justify-content: center;
 }
 
 .list-items {
@@ -142,7 +142,7 @@ h2 {
     height: 55px;
     background-color: #4bbfb9;
     position: absolute;
-    left: 240px;
+    left: 20.25%;
     top: 352px;
 }
 
@@ -152,7 +152,7 @@ h2 {
     height: 20px;
     background-color: white;
     position: absolute;
-    left: 238px;
+    left: 20.25%;
     top: 352px;
     border-bottom-right-radius: 40px;
 }
@@ -163,7 +163,7 @@ h2 {
     height: 50px;
     background-color: #4bbfb9;
     position: absolute;
-    left: 240px;
+    left: 20.25%;
     top: 405px;
 }
 
@@ -173,7 +173,7 @@ h2 {
     height: 20px;
     background-color: white;
     position: absolute;
-    left: 238px;
+    left: 20.25%;
     top: 435px;
     border-top-right-radius: 40px;
 }
