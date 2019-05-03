@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #f5ebeb;
+    background-color: white;
 }
 
 h2 {
@@ -39,7 +39,7 @@ h2 {
     content: "";
     width: 10%;
     height: 10%;
-    background-color: #f5ebeb;
+    background-color: white;
     border-top-right-radius: 40px;
     position: absolute;
     left: 0px;
@@ -62,7 +62,7 @@ h2 {
     content: "";
     width: 10%;
     height: 10%;
-    background-color: #f5ebeb;
+    background-color: white;
     border-top-left-radius: 40px;
     position: absolute;
     right: 0;
@@ -84,6 +84,83 @@ h2 {
     z-index: 1;
 }
 
+.main_page {
+    display: flex;
+    justify-content: left;
+}
+
+.progress_selection {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    left: 0%;
+    -ms-flex-align: center;
+}
+
+#Psection {
+    position: absolute;
+    left: 0%;
+    top: 150px;
+}
+
+#GroupIcon {
+    position: absolute;
+    left: 2.5%;
+    bottom: 140px;
+}
+
+.task_overview {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Progressvert {
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    z-index: -1;
+}
+
+.task_screen {
+    align-content: center;
+    display: flex;
+    flex-direction: column
+}
+
+.task_screen_left {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#task1 {
+    position: absolute;
+    top: 13%;
+    left: 21%;
+}
+
+#task3 {
+    position: absolute;
+    bottom: 10%;
+    left: 21%;
+}
+
+#task2 {
+    position: absolute;
+    top: 13%;
+    right: 21%;
+}
+
+#task4 {
+    position: absolute;
+    bottom: 10%;
+    right: 21%;
+}
+.task_screen_right {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
 
 .progress-bar {
     position: absolute;
