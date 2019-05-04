@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: #f5ebeb;
 }
 
 h2 {
@@ -38,7 +39,7 @@ h2 {
     content: "";
     width: 10%;
     height: 10%;
-    background-color: white;
+    background-color: #f5ebeb;
     border-top-right-radius: 40px;
     position: absolute;
     left: 0px;
@@ -61,7 +62,7 @@ h2 {
     content: "";
     width: 10%;
     height: 10%;
-    background-color: white;
+    background-color: #f5ebeb;
     border-top-left-radius: 40px;
     position: absolute;
     right: 0;
