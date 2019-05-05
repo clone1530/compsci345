@@ -8,3 +8,12 @@ Also: here is the link posted by @Osman about "HTML crash course" : https://www.
 
 link to icon creator: https://www.iconfinder.com/search/?q=back%20icon&price=free
 
+#Major Changes so far
+
+1. Deleted the seperated folders for each of our webpages and added all of them in one folder along with the css stylesheets.
+2. Sizing issues should be fixed for the most part, for the homebar and progress bar.
+3. Adjusted the profiles section so that it resizing properly with the rest of the page.
+4. Changed icon sizes for profile button and home button.
+
+NOTE: The above core changes should be easily reusable from my webpage's css file. Make sure to update your respective pages with the same and adjusted the individual element sizes when and where needed
+

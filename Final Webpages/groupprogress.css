@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Monteserrat:400,600');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font: 2em sans-serif;
+    align-self: center;
+    color: white;
+    outline: black;
+    letter-spacing: 3px;
+}
+
+.home-bar {
+    width: 80%;
+    background: #4bbfb9;
+    padding: 1.5em 0 .5em 0;
+    margin-left: 10%;
+    text-align: center;
+    border-bottom-left-radius: 92px;
+    border-bottom-right-radius: 92px;
+}
+
+.home-bar::before{
+    content: "";
+    width: 10%;
+    height: 10%;
+    background-color: #4bbfb9;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.home-bar::after{
+    content: "";
+    width: 10%;
+    height: 10%;
+    background-color: white;
+    border-top-right-radius: 40px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.home-bar-right::before{
+    content: "";
+    width: 10%;
+    height: 10%;
+    background-color: #4bbfb9;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: -1;
+}
+
+.home-bar-right::after{
+    content: "";
+    width: 10%;
+    height: 10%;
+    background-color: white;
+    border-top-left-radius: 40px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    z-index: 0;
+}
+
+#PIcon{
+    position: absolute;
+    left: .5%;
+    top: 1%;
+    z-index: 1;
+}
+
+#HIcon{
+    position: absolute;
+    right: 0%;
+    top: .1%;
+    z-index: 1;
+}
+
+.group_profile{
+    position: absolute;
+    left: 7%;
+    top: 75%;
+    z-index: 1;
+}
+
+
+
+.body-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    height: 100%;
+}
+
+.profiles-section {
+    position: absolute;
+    left: -125px;
+    margin: 2em;
+    padding: 2em;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-profile-1 {
+    width: 75px;
+    height: 65px;
+    position: absolute;
+    top: 50px;
+    left: 175px;
+	background-color:#9feed4;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5x;
+	border-radius:10px;
+	border:1px solid #4babbf;
+	display:inline-block;
+	color:#000000;
+	font-family:"Montserrat", sans-serif;
+	font-size:40px;
+	padding:12px 76px;
+	text-decoration:none;
+    margin: 10px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.background-profile-2 {
+    width: 75px;
+    height: 65px;
+    position: absolute;
+    top: 350px;
+    left: 180px;
+	background-color:#9feed4;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:10px;
+	border:1px solid #4babbf;
+	display:inline-block;
+	color:#000000;
+	font-family:"Montserrat", sans-serif;
+	font-size:40px;
+	padding:12px 76px;
+	text-decoration:none;
+    margin: 10px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.current-profile {
+    height: 80px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+	background-color:#9feed4;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:10px;
+	border:1px solid #4babbf;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:"Montserrat", sans-serif;
+	font-size:40px;
+	padding:12px 76px;
+	text-decoration:none;
+    margin: 10px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.current-profile:hover {
+    background-color: #4bbfb9; 
+}
+
+.top-triangle {
+    position: absolute;
+    bottom: 20px;
+    left: 275px;
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 18px solid #4babbf;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.bottom-triangle {
+    position: absolute;
+    top:470px;
+    left: 275px;
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 18px solid #4babbf;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#bp1 {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    display: inline;
+    border: 1px, solid, black;
+}
+
+#bgname-1 {
+    display: inline-flex;
+    padding-left: 20px;
+    margin: inherit;
+}
+
+#bp2 {
+    position: absolute;
+    left: 50px;
+    top: 18px;
+    display: inline;
+}
+
+#bgname-2 {
+    display: flex;
+    right: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 80px;
+    padding-top: 12px;
+}
+
+#bp3 {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    display: inline;
+    border: 1px, solid, black;
+}
+
+#bgname-3 {
+    display: inline-flex;
+    padding-left: 20px;
+    margin: inherit;
+}
+
+.group_profile1{
+    position: absolute;
+    left: 35%;
+    top: -5%;
+}
+
+#rectangle{
+    width:950px;
+    height:170px;
+    background:#4babbf;
+    margin-left: 38%;
+    margin-top: 27%;
+    border: ridge;
+    border-width: 20px;
+}
