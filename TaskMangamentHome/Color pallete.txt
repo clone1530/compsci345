@@ -1,4 +1,0 @@
-Home Icon - 4bbfb9
-Profile - Outer circle(4bbfb9) Inner circle(5edbc6)
-Enitire background - #f5ebeb (also the home bar after backgrounds)
-
