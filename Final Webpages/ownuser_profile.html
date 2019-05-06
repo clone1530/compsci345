@@ -8,36 +8,50 @@
     <link rel="stylesheet" href="ownuser_profile.css">
 </head>
 <body>
-<header>
-    <div class="home-bar">
-        <div class="home-bar-right"></div>
-        <a href="#">
-            <img src="../svg-items/ProfileIcon.svg" alt="profile" width="135" height="135" id="PIcon">
-        </a> 
-        <h2>Thanos' Progress</h2>
-        <img src="../svg-items/back-icon.svg" alt="home" width="135" height="135" id="HIcon">
-    </div>
-</header>
-<div class = "main_page">
+<div class="home-bar">
+    <div class="home-bar-right"></div>
+    <a href="#">
+        <img src="../svg-items/ProfileIcon.svg" alt="profile" width="135" height="135" id="PIcon">
+    </a> 
+    <h3>Thanos' Progress</h3>
+    <img src="../svg-items/back-icon.svg" alt="home" width="135" height="135" id="HIcon">
+</div>
+<div class = "body-container">
     <div class = "progress_selection">
-            <img src="../jpg-items/Profile_section.jpg" alt="profile section" width="275" height="450" id="Psection">
-
-            <img src="../svg-items/Group_Icon.svg" alt="group potrait" width = "175" height = "175" id = "GroupIcon">
+        <div class="profiles-section">
+            <div class="top-triangle"></div>
+            <div class="background-profile-1">
+                <img src="../svg-items/ProfileIcon.svg" alt = "profile1" height="60" width="60" id="bp1">
+                <p id="bgname-1">Jerry</p>
+            </div>
+            <a href="#" id="current-profile-click">
+                <div class="current-profile">
+                    <img src="../svg-items/ProfileIcon.svg" alt = "currentprofile" height="70" width="70" id="bp2">
+                    <p id="bgname-2">Thanos</p>
+                </div>
+            </a>
+            <div class="background-profile-2">
+                <img src="../svg-items/ProfileIcon.svg" alt = "profile2" height="60" width="60" id="bp3">
+                <p id="bgname-3">Tom</p>
+            </div>
+        <div class="bottom-triangle"></div>
+    </div>
+            <img src="../svg-items/Group_Icon.svg" alt="group potrait" width ="135" id = "GroupIcon">
     </div>
 
     <div class = "task_overview">
-        <img src="../svg-items/Thanos'_progress_bar.svg" alt="thanosprogressbar" width = "100" height= "700" id = "Progressvert">
+        <img src="../svg-items/Thanos'_progress_bar.svg" alt="thanosprogressbar" height="650" id = "Progressvert">
 
         <div class="task_screen">
             
             <div class="task_screen_left">
-                <img src="../svg-items/ProgressPage_TaskBox1.svg" alt="task1" width = "500" height="360" id = "task1">
-                <img src="../svg-items/ProgressPage_TaskBox3.svg" alt="task3" width="500" height="360" id = "task3">
+                <img src="../svg-items/ProgressPage_TaskBox1.svg" alt="task1" id = "task1">
+                <img src="../svg-items/ProgressPage_TaskBox3.svg" alt="task3" id = "task3">
             </div>
             
             <div class="task_screen_right">
-                    <img src="../svg-items/ProgressPage_TaskBox2.svg" alt="task2" width = "500" height="360" id = "task2">
-                    <img src="../svg-items/ProgressPage_TaskBox4.svg" alt="task4" width="500" height="360" id = "task4">
+                    <img src="../svg-items/ProgressPage_TaskBox2.svg" alt="task2" id = "task2">
+                    <img src="../svg-items/ProgressPage_TaskBox4.svg" alt="task4" id = "task4">
             </div>
 
         </div>
@@ -46,28 +60,29 @@
 </div>
 
 <div class="progress-bar">
-    <div class="progress-button">Progress</div>
-    
-    <div class="progress-bar-container">
-        <div class="division completed">
-            <div class="tooltip">
-                60%
-                <span class="tooltiptext"> 60% of the overall tasks completed</span>
+        <a href="./GroupProgress.html">
+            <div class="progress-button">Progress</div>
+        </a>
+        <div class="progress-bar-container">
+            <div class="division completed">
+                <div class="tooltip">
+                    60%
+                    <span class="tooltiptext"> 60% of the overall tasks completed</span>
+                </div>
             </div>
-        </div>
-        <div class="division assigned">
-            <div class="tooltip">
-                20%
-                <span class="tooltiptext"> 20% of the remaining tasks assigned and in progress</span>
-            </div>
-        </div> 
-        <div class="division not-assigned">
+            <div class="division assigned">
                 <div class="tooltip">
                     20%
-                    <span class="tooltiptext"> 20% of the remaining tasks not assigned</span>
+                    <span class="tooltiptext"> 20% of the remaining tasks assigned and in progress</span>
                 </div>
+            </div> 
+            <div class="division not-assigned">
+                    <div class="tooltip">
+                        20%
+                        <span class="tooltiptext"> 20% of the remaining tasks not assigned</span>
+                    </div>
+            </div>
         </div>
     </div>
-</div>
 </body>
 </html>
