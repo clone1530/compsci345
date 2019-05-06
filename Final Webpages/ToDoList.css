@@ -89,6 +89,7 @@ h2 {
     flex-direction: row;
     margin-top: 25px;
     height: 100%;
+    width: 98%;
     justify-content: center;
 }
 
