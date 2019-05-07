@@ -7,21 +7,26 @@ body {
 }
 
 h2 {
+    position: relative;
+    left: 40%;
     font: 2em sans-serif;
-    align-self: center;
+    font-size: 2vmax;
+    justify-content: center;
     color: white;
     outline: black;
     letter-spacing: 3px;
 }
 
 .home-bar {
+    display: flex;
+    align-items: center;
     width: 80%;
     background: #4bbfb9;
     padding: 1.5em 0 .5em 0;
     margin-left: 10%;
     text-align: center;
-    border-bottom-left-radius: 92px;
-    border-bottom-right-radius: 92px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
 }
 
 .home-bar::before{
