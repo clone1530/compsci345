@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Monteserrat:400,600');
 
-body {
+body, html {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #f5ebeb;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
 }
 
 h2 {
@@ -31,8 +35,8 @@ h2 {
 
 .home-bar::before{
     content: "";
-    width: 10%;
-    height: 10%;
+    width: 10vmax;
+    height: 10vmax;
     background-color: #4bbfb9;
     position: absolute;
     left: 0px;
@@ -42,10 +46,10 @@ h2 {
 
 .home-bar::after{
     content: "";
-    width: 10%;
-    height: 10%;
+    width: 10vmax;
+    height: 10vmax;
     background-color: #f5ebeb;
-    border-top-right-radius: 40px;
+    border-top-right-radius: 40%;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -54,8 +58,8 @@ h2 {
 
 .home-bar-right::before{
     content: "";
-    width: 10%;
-    height: 10%;
+    width: 10vmax;
+    height: 8vmax;
     background-color: #4bbfb9;
     position: absolute;
     right: 0;
@@ -65,10 +69,10 @@ h2 {
 
 .home-bar-right::after{
     content: "";
-    width: 10%;
-    height: 10%;
+    width: 10vmax;
+    height: 8vmax;
     background-color: #f5ebeb;
-    border-top-left-radius: 40px;
+    border-top-left-radius: 40%;
     position: absolute;
     right: 0;
     top: 0px;
@@ -77,6 +81,8 @@ h2 {
 
 #PIcon{
     position: absolute;
+    height: 10%;
+    width: 10%;
     left: .5%;
     top: 1%;
     z-index: 1;
@@ -84,8 +90,10 @@ h2 {
 
 #HIcon{
     position: absolute;
-    right: 0%;
-    top: .1%;
+    height: 10%;
+    width: 5%;
+    right: 3.2%;
+    top: 1%;
     z-index: 1;
 }
 
