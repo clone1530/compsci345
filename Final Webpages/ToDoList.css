@@ -110,7 +110,9 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    width: 18%;
+    height: 100%;
+    margin: 6px;
 }
 
 .list-info {
@@ -120,22 +122,25 @@ h2 {
     width: 70%;
     height: 100%;
     border: 15px;
-    margin: 12px;
+    margin: 6px;
     border-radius: 25px;
 }
 
 .button {
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    max-width: 100%;
 	background-color:#9feed4;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	border:1px solid #4babbf;
-	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:"Montserrat";
 	font-size:32px;
-	padding:12px 76px;
+	padding:12px;
 	text-decoration:none;
   margin: 10px;
   letter-spacing: 3px;
@@ -155,18 +160,22 @@ h2 {
 
   }
 .info-action-buttons {
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    max-width: 100%;
     background-color:#D1F2EB;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 	border:1px solid #4babbf;
-    padding:1% 10%;
     margin: 1%;
     white-space: nowrap;
     cursor:pointer;
     font-family:"Montserrat";
     letter-spacing: 3px;
     color:#666666;
+    padding:12px;
   
   }
 
