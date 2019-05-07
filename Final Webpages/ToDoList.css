@@ -169,6 +169,10 @@ h2 {
     color:#666666;
   
   }
+
+  .info-action-buttons:hover {
+    filter: invert(75%) sepia(100%) saturate(460%) hue-rotate(138deg) brightness(145%) contrast(75%);
+  }
 .discription {
 	background-color:#ffffff;
 	-moz-border-radius:6px;
