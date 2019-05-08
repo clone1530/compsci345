@@ -55,7 +55,7 @@ h3 {
 .home-bar-right::before{
     content: "";
     width: 10vmax;
-    height: 10vmax;
+    height: 7vmax;
     background-color: #4bbfb9;
     position: absolute;
     right: 0;
@@ -66,7 +66,7 @@ h3 {
 .home-bar-right::after{
     content: "";
     width: 10vmax;
-    height: 10vmax;
+    height: 7vmax;
     background-color: #f5ebeb;
     border-top-left-radius: 40%;
     position: absolute;
@@ -86,9 +86,10 @@ h3 {
 
 #HIcon{
     position: absolute;
-    height: 12%;
-    right: 2%;
-    top: .1%;
+    height: 10%;
+    width: 6%;
+    right: 3.2%;
+    top: 1%;
     z-index: 1;
 }
 .body-container{
