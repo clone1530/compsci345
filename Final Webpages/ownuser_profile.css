@@ -133,7 +133,7 @@ h3 {
 	font-size:40px;
 	padding:6px 38px;
     text-decoration:none;
-    margin: 10px;
+    margin: 20px;
     letter-spacing: 3px;
     white-space: nowrap;
 }
@@ -153,28 +153,30 @@ h3 {
 	font-size:40px;
 	padding:6px 38px;
 	text-decoration:none;
-    margin: 10px;
+    margin: 20px;
     letter-spacing: 3px;
     white-space: nowrap;
 }
 
 .current-profile {
-	background-color:#4bbfb9;
+	background-color:#9feed4;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:10px;
 	border:1px solid #4babbf;
-    display: flex;
-    flex-direction: row;
+	display: flex;
 	cursor:pointer;
 	color:#000000;
 	font-family:"Montserrat", sans-serif;
 	font-size:40px;
-	padding:12px 30px;
-	text-decoration:none;
+	padding:12px 76px;
     margin: 10px;
     letter-spacing: 3px;
     white-space: nowrap;
+}
+
+#current-profile-click{
+    text-decoration: none;
 }
 
 .current-profile:hover {
@@ -207,7 +209,9 @@ h3 {
 
 #bgname-2{
     margin: 0%;
+    padding-top: 10px;
 }
+
 
 #bgname-3{
     margin: 0%;
@@ -231,6 +235,7 @@ h3 {
     margin-left: 8%;
     margin-right: 8%;
     padding: 0em;
+    flex-shrink: 0;
 }
 
 .task_screen{
