@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Monteserrat:400,600');
 
-body, html {
+body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #f5ebeb;
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
 }
 
 h2 {
@@ -296,4 +292,125 @@ h2 {
     position: absolute;
     left: 35%;
     top: -5%;
+}
+
+.progress-bar {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    border-top-left-radius: 92px;
+    border-top-right-radius: 92px;
+    background-color: #4bbfb9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.progress-button {
+    width: 6em;
+    height: 1.3em;
+    background-color:#9feed4;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:10px;
+	border:1.5px solid #0f859c;
+	display:inline-block;
+	color:#000000;
+	font-family:"Montserrat", sans-serif;
+    font-size:26px;
+    text-align: center;
+    letter-spacing: 3px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.progress-bar-container {
+    box-sizing:border-box;
+    position: relative; 
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.division {
+    text-align: right; 
+    font-family:"Montserrat", sans-serif;
+    font-size: 14px;
+    padding: 10px; 
+    color: black; 
+}
+
+.completed {
+    position: absolute;
+    width: 60%; 
+    background-color: #77e7c2;
+    border: 1.5px solid #0f859c;
+    border-radius: 8px;
+    height: 11px;
+    z-index: 2;
+}
+
+.assigned {
+    position: absolute;
+    width: 80%; 
+    background-color: #a7e7d3;
+    border: 1.5px solid #0f859c;
+    border-radius: 8px;
+    height: 11px;
+    margin: 0;
+    z-index: 1;
+}
+
+.not-assigned {
+    background-color: #c6eee1;
+    border-radius: 8px;
+    border: 1.5px solid #0f859c;
+    height: 11px;
+    margin: 0;
+    z-index: 0;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer; 
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: #4babbf;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0px 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 130%;
+    left: 50%;
+    margin-left: -125px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 0.5s
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4babbf transparent transparent transparent;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
