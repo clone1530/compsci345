@@ -120,6 +120,7 @@ h3 {
 	border-radius:10px;
 	border:1px solid #4babbf;
 	display:inline-block;
+    cursor:pointer;
 	color:#000000;
 	font-family:"Montserrat", sans-serif;
 	font-size:40px;
@@ -168,6 +169,10 @@ h3 {
 }
 
 .current-profile:hover {
+    background-color: #4bbfb9;
+}
+
+.background-profile-1:hover {
     background-color: #4bbfb9;
 }
 

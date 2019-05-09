@@ -161,6 +161,7 @@ h2 {
 	border-radius:10px;
 	border:1px solid #4babbf;
 	display:inline-block;
+    cursor:pointer;
 	color:#000000;
 	font-family:"Montserrat", sans-serif;
 	font-size:40px;
@@ -209,7 +210,11 @@ h2 {
 }
 
 .current-profile:hover {
-    background-color: #4bbfb9; 
+    background-color: #4bbfb9;
+}
+
+.background-profile-1:hover {
+    background-color: #4bbfb9;
 }
 
 .top-triangle {
@@ -329,7 +334,7 @@ h2 {
 
 .progress-bar-container {
     box-sizing:border-box;
-    position: relative; 
+    position: relative;
     width: 70%;
     height: 35px;
     border-radius: 10px;
@@ -337,16 +342,16 @@ h2 {
 }
 
 .division {
-    text-align: right; 
+    text-align: right;
     font-family:"Montserrat", sans-serif;
     font-size: 14px;
-    padding: 10px; 
-    color: black; 
+    padding: 10px;
+    color: black;
 }
 
 .completed {
     position: absolute;
-    width: 60%; 
+    width: 60%;
     background-color: #77e7c2;
     border: 1.5px solid #0f859c;
     border-radius: 8px;
@@ -356,7 +361,7 @@ h2 {
 
 .assigned {
     position: absolute;
-    width: 80%; 
+    width: 80%;
     background-color: #a7e7d3;
     border: 1.5px solid #0f859c;
     border-radius: 8px;
@@ -377,7 +382,7 @@ h2 {
 .tooltip {
     position: relative;
     display: inline-block;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .tooltip .tooltiptext {
@@ -393,7 +398,7 @@ h2 {
     bottom: 130%;
     left: 50%;
     margin-left: -125px;
-    
+
     /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
     opacity: 0;
     transition: opacity 0.5s
@@ -409,7 +414,7 @@ h2 {
     border-style: solid;
     border-color: #4babbf transparent transparent transparent;
 }
-  
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
