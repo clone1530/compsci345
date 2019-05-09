@@ -86,9 +86,10 @@ h3 {
 
 #HIcon{
     position: absolute;
-    height: 12%;
-    right: 2%;
-    top: .1%;
+    height: 10%;
+    width: 5%;
+    right: 3.2%;
+    top: 1%;
     z-index: 1;
 }
 
