@@ -85,12 +85,18 @@ h2 {
 }
 
 /* Profile Selection*/
+.body-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    height: 100%;
+    width: 39%;
+}
+
 .profiles-section {
-    position: absolute;
-    left: -125px;
     margin: 2em;
     padding: 2em;
-    top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,9 +104,6 @@ h2 {
 }
 
 .background-profile-1 {
-    width: 75px;
-    height: 65px;
-    position: absolute;
     top: 50px;
     left: 175px;
 	background-color:#9feed4;
@@ -120,9 +123,6 @@ h2 {
 }
 
 .background-profile-2 {
-    width: 75px;
-    height: 65px;
-    position: absolute;
     top: 350px;
     left: 180px;
 	background-color:#9feed4;
@@ -142,10 +142,6 @@ h2 {
 }
 
 .current-profile {
-    height: 80px;
-    position: absolute;
-    top: 200px;
-    left: 100px;
 	background-color:#9feed4;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
@@ -168,9 +164,6 @@ h2 {
 }
 
 .top-triangle {
-    position: absolute;
-    bottom: 20px;
-    left: 275px;
     width: 0;
     height: 0;
     border-left: 18px solid transparent;
@@ -181,9 +174,6 @@ h2 {
 }
 
 .bottom-triangle {
-    position: absolute;
-    top:470px;
-    left: 275px;
     width: 0;
     height: 0;
     border-left: 18px solid transparent;
@@ -193,56 +183,26 @@ h2 {
     cursor: pointer;
 }
 
-#bp1 {
-    position: absolute;
-    left: 30px;
-    top: 15px;
-    display: inline;
-    border: 1px, solid, black;
-}
-
-#bgname-1 {
-    display: inline-flex;
-    padding-left: 20px;
-    margin: inherit;
-}
-
-#bp2 {
-    position: absolute;
-    left: 50px;
-    top: 18px;
-    display: inline;
-}
-
-#bgname-2 {
+.profile-detail {
     display: flex;
-    right: 10px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    padding-left: 80px;
-    padding-top: 12px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
 }
 
-#bp3 {
-    position: absolute;
-    left: 30px;
-    top: 15px;
-    display: inline;
-    border: 1px, solid, black;
-}
-
-#bgname-3 {
-    display: inline-flex;
-    padding-left: 20px;
-    margin: inherit;
+.p1{
+    margin: 0;
+    padding: 10px;
 }
 
 /*Group Profile*/
-.group_profile{
-    position: absolute;
-    left: 7%;
-    top: 75%;
-    z-index: 1;
+
+#group_icon{
+  position: absolute;
+  left: 15%;
+  top: 70%;
+  height:17%;
+  width:auto%;
 }
 
 #rectangle{
@@ -263,14 +223,18 @@ h2 {
 
 #user_bar {
     position: absolute;
-    top: 16%;
-    right: 52%;
+    height:65%;
+    width:40%;
+    top: 20%;
+    right: 35%;
 }
 
 #tasks {
     position: absolute;
-    top: 16%;
-    right: -10%;
+    height:65%;
+    width:40%;
+    top: 20%;
+    right: 5%;
 }
 
 #Progressvert {
