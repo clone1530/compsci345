@@ -6,28 +6,33 @@ body {
     background-color: #f5ebeb;
 }
 
-h2 {
+h3 {
+    position: relative;
+    left: 40%;
     font: 2em sans-serif;
-    align-self: center;
+    font-size: 2vmax;
+    justify-content: center;
     color: white;
     outline: black;
     letter-spacing: 3px;
 }
 
 .home-bar {
+    display: flex;
+    align-items: center;
     width: 80%;
     background: #4bbfb9;
     padding: 1.5em 0 .5em 0;
     margin-left: 10%;
     text-align: center;
-    border-bottom-left-radius: 92px;
-    border-bottom-right-radius: 92px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
 }
 
 .home-bar::before{
     content: "";
-    width: 10%;
-    height: 10%;
+    width: 10vmax;
+    height: 10vmax;
     background-color: #4bbfb9;
     position: absolute;
     left: 0px;
@@ -37,10 +42,10 @@ h2 {
 
 .home-bar::after{
     content: "";
-    width: 10%;
-    height: 10%;
+    width: 10vmax;
+    height: 10vmax;
     background-color: #f5ebeb;
-    border-top-right-radius: 40px;
+    border-top-right-radius: 40%;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -49,8 +54,8 @@ h2 {
 
 .home-bar-right::before{
     content: "";
-    width: 10%;
-    height: 10%;
+    width: 10vmax;
+    height: 10vmax;
     background-color: #4bbfb9;
     position: absolute;
     right: 0;
@@ -60,10 +65,10 @@ h2 {
 
 .home-bar-right::after{
     content: "";
-    width: 10%;
-    height: 10%;
+    width: 10vmax;
+    height: 10vmax;
     background-color: #f5ebeb;
-    border-top-left-radius: 40px;
+    border-top-left-radius: 40%;
     position: absolute;
     right: 0;
     top: 0px;
@@ -72,6 +77,8 @@ h2 {
 
 #PIcon{
     position: absolute;
+    height: 10%;
+    width: 10%;
     left: .5%;
     top: 1%;
     z-index: 1;
@@ -79,7 +86,8 @@ h2 {
 
 #HIcon{
     position: absolute;
-    right: 0%;
+    height: 12%;
+    right: 2%;
     top: .1%;
     z-index: 1;
 }
