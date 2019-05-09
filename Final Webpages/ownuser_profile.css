@@ -255,6 +255,177 @@ h3 {
     flex-direction: column;
 }
 
+.body-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    height: 100%;
+    width: 39%;
+}
+
+.profiles-section {
+    margin: 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.background-profile-1 {
+    top: 50px;
+    left: 175px;
+	background-color:#9feed4;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5x;
+	border-radius:10px;
+	border:1px solid #4babbf;
+	display:inline-block;
+	color:#000000;
+	font-family:"Montserrat", sans-serif;
+	font-size:40px;
+	padding:12px 76px;
+	text-decoration:none;
+    margin: 10px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.background-profile-2 {
+    top: 350px;
+    left: 180px;
+	background-color:#9feed4;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:10px;
+	border:1px solid #4babbf;
+	display:inline-block;
+	color:#000000;
+	font-family:"Montserrat", sans-serif;
+	font-size:40px;
+	padding:12px 76px;
+	text-decoration:none;
+    margin: 10px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.current-profile {
+	background-color:#9feed4;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:10px;
+	border:1px solid #4babbf;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:"Montserrat", sans-serif;
+	font-size:40px;
+	padding:12px 76px;
+	text-decoration:none;
+    margin: 10px;
+    letter-spacing: 3px;
+    white-space: nowrap;
+}
+
+.current-profile:hover {
+    background-color: #4bbfb9;
+}
+
+.top-triangle {
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 18px solid #4babbf;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.bottom-triangle {
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 18px solid #4babbf;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.profile-detail {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.p1{
+    margin: 0;
+    padding: 10px;
+}
+
+/*Group Profile*/
+
+#group_icon{
+  position: absolute;
+  left: 15%;
+  top: 70%;
+  height:17%;
+  width:auto%;
+}
+
+#rectangle{
+    width:950px;
+    height:170px;
+    background:#4babbf;
+    margin-left: 38%;
+    margin-top: 27%;
+    border: ridge;
+    border-width: 20px;
+}
+
+/*Tasks Overview*/
+.task_overview {
+    display: flex;
+    justify-content: space-between;
+}
+
+#user_bar {
+    position: absolute;
+    height:65%;
+    width:40%;
+    top: 20%;
+    right: 35%;
+}
+
+#tasks {
+    position: absolute;
+    height:65%;
+    width:40%;
+    top: 20%;
+    right: 5%;
+}
+
+#Progressvert {
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    z-index: -1;
+}
+
+.task_screen {
+    align-content: center;
+    display: flex;
+    flex-direction: column
+}
+
+.tasks {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
 .progress-bar {
     position: absolute;
     bottom: 0;
