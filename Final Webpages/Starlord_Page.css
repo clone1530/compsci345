@@ -86,10 +86,9 @@ h3 {
 
 #HIcon{
     position: absolute;
-    height: 10%;
-    width: 5%;
-    right: 3.2%;
-    top: 1%;
+    height: 12%;
+    right: 2%;
+    top: .1%;
     z-index: 1;
 }
 
@@ -100,7 +99,7 @@ h3 {
     justify-content: space-evenly;
     margin-top: 25px;
     height: 100%;
-    width: 39%;
+    width: 43%;
 }
 
 .profiles-section {
@@ -227,7 +226,20 @@ h3 {
 /*Tasks Overview*/
 .task_overview {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+.task_screen {
+    align-content: center;
+    display: flex;
+    flex-direction: column
+}
+
+.tasks {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
 }
 
 #user_bar {
@@ -253,36 +265,22 @@ h3 {
     z-index: -1;
 }
 
-.task_screen {
-    align-content: center;
-    display: flex;
-    flex-direction: column
-}
-
-.tasks {
-    align-content: center;
-    display: flex;
-    flex-direction: row;
-}
-
 
 /*Progress Bar*/
 .progress-bar {
     position: absolute;
     bottom: 0;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-evenly;
     width: 100%;
+    height: 10%;
     border-top-left-radius: 92px;
     border-top-right-radius: 92px;
     background-color: #4bbfb9;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .progress-button {
+    position: absolute;
+    left: 6em;
+    top: 1em;
     width: 6em;
     height: 1.3em;
     background-color:#9feed4;
@@ -296,13 +294,15 @@ h3 {
     font-size:26px;
     text-align: center;
     letter-spacing: 3px;
-    justify-content: center;
+    white-space: nowrap;
     cursor: pointer;
 }
 
 .progress-bar-container {
     box-sizing:border-box;
-    position: relative; 
+    position: absolute;
+    left: 25em;
+    top: 1.8em;
     width: 70%;
     height: 35px;
     border-radius: 10px;
@@ -310,47 +310,55 @@ h3 {
 }
 
 .division {
-    text-align: right; 
+    text-align: right;
     font-family:"Montserrat", sans-serif;
     font-size: 14px;
-    padding: 10px; 
-    color: black; 
+    padding: 10px;
+    color: black;
 }
 
 .completed {
     position: absolute;
-    width: 60%; 
+    left: 0;
+    top: 0;
+    width: 60%;
     background-color: #77e7c2;
     border: 1.5px solid #0f859c;
     border-radius: 8px;
     height: 11px;
-    z-index: 2;
+    z-index: -1;
 }
 
 .assigned {
     position: absolute;
-    width: 80%; 
+    top: 0;
+    left: 0;
+    width: 80%;
     background-color: #a7e7d3;
     border: 1.5px solid #0f859c;
     border-radius: 8px;
     height: 11px;
     margin: 0;
-    z-index: 1;
+    z-index: -2;
 }
 
 .not-assigned {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:98.35%;
     background-color: #c6eee1;
     border-radius: 8px;
     border: 1.5px solid #0f859c;
     height: 11px;
     margin: 0;
-    z-index: 0;
+    z-index: -3;
 }
 
 .tooltip {
     position: relative;
     display: inline-block;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .tooltip .tooltiptext {
@@ -366,7 +374,7 @@ h3 {
     bottom: 130%;
     left: 50%;
     margin-left: -125px;
-    
+
     /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
     opacity: 0;
     transition: opacity 0.5s
@@ -382,7 +390,7 @@ h3 {
     border-style: solid;
     border-color: #4babbf transparent transparent transparent;
 }
-  
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
