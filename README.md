@@ -17,3 +17,4 @@ link to icon creator: https://www.iconfinder.com/search/?q=back%20icon&price=fre
 
 NOTE: The above core changes should be easily reusable from my webpage's css file. Make sure to update your respective pages with the same and adjusted the individual element sizes when and where needed
 
+Nice work everyone!!
